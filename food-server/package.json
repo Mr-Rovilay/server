@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/server.js",
-    "build": "tsc",
+    "stripe":"stripe listen --forward-to localhost:8000/api/v1/order/webhook",
+    "build": "tsc npm install && npm run build",
     "dev": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
