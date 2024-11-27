@@ -6,7 +6,7 @@
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
-    "types": [ "node" ],
+    "types": ["node", "express"],
     "typeRoots": [ "./node_modules/@types", "../node_modules/@types", "../../node_modules/@types" ]
   }
 }
